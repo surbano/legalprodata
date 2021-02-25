@@ -1,0 +1,20 @@
+# Folders operating system macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Node modules 
+node_modules
+
+# Logs files
+*.log
+
+# Backup digrama EER
+*.bak
+
+# Archivo de configuracion
+.env
