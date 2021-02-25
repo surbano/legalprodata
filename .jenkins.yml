@@ -1,0 +1,12 @@
+---
+global:
+  tech: websphere
+  language: java
+  jkd: 8
+production:
+  route1:
+    build:
+      sonarQubeScan:
+        sources: /home/jenkins-slave-01/workspace/DEMO_PROYECTOS/route-1/src
+        projectKey: SimpleCustomerApp
+        projectName: SCA
